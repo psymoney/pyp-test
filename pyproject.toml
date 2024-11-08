@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pyp-test"
+version = "0.1.0"
+description = ""
+authors = ["Sangyeop Kim <sangykimiv@gmail.com>"]
+repository = "https://github.com/psymoney/pyp-test.git"
+readme = "README.md"
+packages = [
+    { include = "t", from = "src" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
