@@ -3,10 +3,11 @@ name = "pyp-test"
 version = "0.1.0"
 description = ""
 authors = ["Sangyeop Kim <sangykimiv@gmail.com>"]
+readme = "README.md"
 repository = "https://github.com/psymoney/pyp-test.git"
 readme = "README.md"
-packages = [
-    { include = "t", from = "src" }
+packages = [i
+    { include = "test", from = "src" }
 ]
 
 [tool.poetry.dependencies]
