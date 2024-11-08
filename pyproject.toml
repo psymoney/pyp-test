@@ -6,7 +6,7 @@ authors = ["Sangyeop Kim <sangykimiv@gmail.com>"]
 readme = "README.md"
 repository = "https://github.com/psymoney/pyp-test.git"
 packages = [
-    { include = "test", from = "src" }
+    { include = "test", from = "src", to = "src" }
 ]
 
 [tool.poetry.dependencies]
